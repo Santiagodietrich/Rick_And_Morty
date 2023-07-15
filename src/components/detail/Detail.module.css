@@ -1,0 +1,76 @@
+.card {
+    width: 350px;
+    height: 450px;
+    /* transition: all 0.2s; */
+    position: relative;
+    cursor: pointer;
+    right: -500px;
+    /* padding: 33px; */
+    top: 30px;
+    /* background-color:black; */
+    
+    
+  }
+  
+  .inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  /* .card:hover {
+    transform: scale(1.04) rotate(1deg);
+  } */
+  
+  .circle {
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(#c2c51d, #e4e721);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 1s ease-in infinite alternate-reverse;
+  }
+  
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
+  .carta{
+    width: 230px;
+    height: 25px;
+    transition: all 0.2s;
+    position:relative;
+    cursor: pointer;
+    right: -20px;
+    padding: 35px;
+    top: -490px;
+    color: #000000;
+    
+  }
+
+  .carta .img{
+
+  height:160px;
+  }

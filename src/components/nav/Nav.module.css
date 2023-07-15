@@ -1,0 +1,198 @@
+.button{
+    width: 80px;
+    position:relative;
+    height: 35px;
+    border: 3px ridge #cbce18;
+    outline:none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight:bold;
+    right: 62px;
+    top: -37px;
+  }
+  
+  .button::after {
+    content: "Random";
+    position:static;
+    top: 8%;
+    left: 3%;
+    width: 90%;
+    height: 40%;
+    background-color:transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  /* .button::before {
+    content: "";
+    transform-origin:center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  .button:hover::before, button:hover::after {
+    transform: scale(0)
+  } */
+  
+  .button:hover {
+    box-shadow: inset 0px 0px 25px #bfc20a;
+  }
+
+
+  .boton{
+    width: 80px;
+    position:relative;
+    height: 35px;
+    border: 3px ridge #f8f416;
+    outline:none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight:bold;
+    left: 570px;
+    top: -35px;
+  }
+  
+  .boton::after {
+    content: "";
+    position:static;
+    top: 8%;
+    left: 3%;
+    width: 90%;
+    height: 40%;
+    background-color:transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  /* .boton::before {
+    content: "";
+    transform-origin:center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  .boton:hover::before, button:hover::after {
+    transform: scale(0)
+  } */
+  
+  .boton:hover {
+    box-shadow: inset 0px 0px 25px #eff315;
+  }
+
+
+
+
+  .bot{
+    width: 80px;
+    position:relative;
+    height: 35px;
+    border: 3px ridge #ece911;
+    outline:none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight:bold;
+    left: 550px;
+    top: -35px;
+  }
+  
+  .bot::after {
+    content: "";
+    position:static;
+    top: 8%;
+    left: 3%;
+    width: 90%;
+    height: 40%;
+    background-color:transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  /* .bot::before {
+    content: "";
+    transform-origin:center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  .bot:hover::before, button:hover::after {
+    transform: scale(0)
+  } */
+  
+  .bot:hover {
+    box-shadow: inset 0px 0px 25px #f0ec11;
+  }
+  
+
+
+
+  .bo{
+    width: 80px;
+    position:relative;
+    height: 35px;
+    border: 3px ridge #af1914;
+    outline:none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight:bold;
+    right: 720px;
+    top: -37px;
+  }
+  
+  .bo::after {
+    content: "";
+    position:static;
+    top: 8%;
+    left: 3%;
+    width: 90%;
+    height: 40%;
+    background-color:transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  /* .bo::before {
+    content: "";
+    transform-origin:center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  .bo:hover::before, button:hover::after {
+    transform: scale(0)
+  } */
+  
+  .bo:hover {
+    box-shadow: inset 0px 0px 25px #a71313;
+  }

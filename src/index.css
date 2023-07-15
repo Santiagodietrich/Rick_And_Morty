@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./rick_morty_fondo2.jpg");
+  background-repeat:repeat;
+  background-size:1366px;
+  
 }
 
 code {
