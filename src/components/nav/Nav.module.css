@@ -10,7 +10,7 @@
     border-radius: 0.3em;
     font-size: 16px;
     font-weight:bold;
-    right: 62px;
+    right: 22px;
     top: -37px;
   }
   
@@ -59,7 +59,7 @@
     border-radius: 0.3em;
     font-size: 16px;
     font-weight:bold;
-    left: 570px;
+    left: 618px;
     top: -35px;
   }
   
@@ -110,7 +110,7 @@
     border-radius: 0.3em;
     font-size: 16px;
     font-weight:bold;
-    left: 550px;
+    left: 598px;
     top: -35px;
   }
   
@@ -161,7 +161,7 @@
     border-radius: 0.3em;
     font-size: 16px;
     font-weight:bold;
-    right: 720px;
+    right: 712px;
     top: -37px;
   }
   
@@ -196,3 +196,56 @@
   .bo:hover {
     box-shadow: inset 0px 0px 25px #a71313;
   }
+  
+
+  
+  .bota{
+    width: 85px;
+    position:relative;
+    height: 35px;
+    border: 3px ridge #d3d01e;
+    outline:none;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight:bold;
+    right: 700px;
+    top: -37px;
+  }
+  
+  .bota::after {
+    content: "";
+    position:static;
+    top: 8%;
+    left: 3%;
+    width: 90%;
+    height: 40%;
+    background-color:transparent;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  /* .bo::before {
+    content: "";
+    transform-origin:center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  .bo:hover::before, button:hover::after {
+    transform: scale(0)
+  } */
+  
+  .bota:hover {
+    box-shadow: inset 0px 0px 25px #c0dd1b;
+  }
+  
+
+  

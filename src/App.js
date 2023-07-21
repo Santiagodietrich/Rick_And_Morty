@@ -8,6 +8,7 @@ import About from './components/about/About';
 import Detail from './components/detail/Detail';
 import Form from './components/Form/Form.jsx';
 import error from './components/Error/error';
+import Favorites from './components/Favorites/Favorites'
 
 
 
@@ -96,8 +97,9 @@ function App() {
        <Route path='/'element={<Form login={login}/>}/>
        <Route path='/home'element={<Cards characters={characters} onClose={onClose}/>}/>
        <Route path='/about'element={<About/>}/>
-       <Route path='/deatil/:id'element={<Detail/>}/>
+       <Route path='/detail/:id'element={<Detail/>}/>
        <Route path="" element={<error/>}/>
+       <Route path='/favorites' element={<Favorites/>}/>
       </Routes>
         
       </div> 

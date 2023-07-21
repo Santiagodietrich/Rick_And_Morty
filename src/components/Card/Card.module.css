@@ -120,7 +120,19 @@
 
 .boton{
   border-radius: 10px;
-  left: 100px;
+  left: 85px;
+  position: relative;
+  top: 41px;
+  padding: 3px 5px;
+  background-color: #000000;
+  color: red;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.bota{
+  border-radius: 10px;
+  left: 30px;
   position: relative;
   top: 41px;
   padding: 3px 9px;
@@ -128,4 +140,5 @@
   color: red;
   font-size: 14px;
   z-index: 1;
+  top:320px;
 }

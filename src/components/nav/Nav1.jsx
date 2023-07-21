@@ -17,6 +17,9 @@ export default function Nav ({onSearch, aleatxrix}){
             <Link to="/">
             <button className={styles.bo}>Log out</button>
             </Link>
+            <Link to='/favorites'>
+                <button className={styles.bota}>Favoritos</button>
+            </Link>
         </nav>
     )
 }

@@ -1,0 +1,26 @@
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 98%;
+    gap: 30px;
+    flex-direction: row;
+    padding: 48px;
+    
+}
+
+.FlexContainer div {
+    width: 230px;
+    height: 330px;
+    margin: 5px;
+    
+}
+
+.palabra{
+margin-top: 150px;
+margin-left: -120px;
+font-size: 25px;
+color:white;
+}
