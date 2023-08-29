@@ -40,28 +40,48 @@ export default function Form ({login}){
 
 
 
-<div className={styles.box}>
+// {/* <div className={styles.content}>
  
- <form onSubmit={handleSubmit}>
-   <div className={styles.box}>
-     <input type="text" name="email" value={userData.email} onChange={handleChange}/>
-     <span className={styles.highlightSpan}>{errors.email}</span>
-     <label htmlFor="email">Email</label>
-   </div>
-   <div className={styles.box}>
-     <input type="password" name="password" value={userData.password} onChange={handleChange} />
-     <span className={styles.highlightSpan}>{errors.password}</span>
-     <label htmlFor="password" >Password</label>
-   </div>
-   <button className={styles.boton} type="submit">Login</button>
-   {/* <center>
-     <a href="#">
-          Submit
-      <span></span>
-   </a></center>  */}
- </form>
-</div>
+//  <form onSubmit={handleSubmit}>
+//    <div className={styles.field}>
+//      <input type="text" name="email" value={userData.email} onChange={handleChange}/>
+//      <span className={styles.span}>{errors.email}</span>
+//      <label htmlFor="email">Email</label>
+//    </div>
+//    <div className={styles.field}>
+//      <input type="password" name="password" value={userData.password} onChange={handleChange} />
+//      <span className={styles.span}>{errors.password}</span>
+//      <label htmlFor="password" >Password</label>
+//    </div>
+//    <button className={styles.boton} type="submit">Login</button>
+//    {/* <center>
+//      <a href="#">
+//           Submit
+//       <span></span>
+//    </a></center>  */}
+// //  </form>
+// // </div> */}
 
+
+
+
+<form className={styles.form} onSubmit={handleSubmit}>
+            <p>Login</p>
+            <div className={styles.group}>
+                <label className={styles.lebalEmail}></label>
+                <input className={styles.mainInput} required="true" placeholder="Email" type="text" name="email"  value={userData.email} onChange={handleChange}></input> 
+                <span className={styles.highlightSpan}>{errors.email}</span>
+                {/* <p></p> */}
+            </div>
+            <div className={styles.container}>
+                <div className={styles.group}>
+                <label htmlFor="password" className={styles.lebalPassword}></label>
+                <input className={styles.main} placeholder="Password" type="password" name="password" value={userData.password} onChange={handleChange}></input> 
+                <span className={styles.highlightSpan}>{errors.password}</span>
+            </div>
+            </div>
+            <button className={styles.submit} type="submit">Login</button>
+        </form>
 
 
     )

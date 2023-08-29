@@ -4,17 +4,17 @@ import { add_fav, remove_fav } from '../../Redux/actions';
  import {connect} from 'react-redux'
 import { useState,useEffect} from 'react';
 // import {Button,CardConteiner} from './styled'
-export function Card({name, status, species, gender, origin, image, onClose, id,add_fav,remove_fav,favorites}) {//hacemos destructuring para evitar repetir props.
+export function Card({name, status, species, gender, origin, image, onClose, id,add_fav,remove_fav,myFavorites}) {//hacemos destructuring para evitar repetir props.
 
    const [estado,SetEstado]=useState(false)
 
    useEffect(() => {
-      favorites.forEach((fav) => {
+      myFavorites.forEach((fav) => {
          if (fav.id === id) {
             SetEstado(true);
          }
       });
-   }, [favorites]);
+   }, [myFavorites]);
 
    function handleFavorite(){
       if(estado === true){
@@ -72,7 +72,7 @@ function mapDispatchToProps(dispatch){
 }
 
 function mapStateToProps(estado){
-   return {favorites:estado.myFavorites}
+   return {myFavorites:estado.myFavorites}
 
 }
 
