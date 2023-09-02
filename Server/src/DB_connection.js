@@ -12,6 +12,9 @@ const sequelize = new Sequelize(
    `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/rickandmorty`,
    { logging: false, native: false }
 );
+sequelize.authenticate()
+.then(()=>{console.log("Todo salio bien")})
+.catch((error)=>{console.log("Fallo: ", error.message)})
 
 // EJERCICIO 05
 // Debajo de este comentario puedes ejecutar la función de los modelos.

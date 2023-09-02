@@ -130,6 +130,12 @@ server.use((req, res, next) => {
    );
    next();
 });
-server.listen(PORT, () => {
+conn.sync({force:true})
+.then(()=>{
+   server.listen(PORT, () => {
    console.log('Server raised in port: ' + PORT);
+   });
+})
+.catch(error =>{
+   console.log(error)
 });
